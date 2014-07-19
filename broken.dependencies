@@ -25,7 +25,7 @@
   },
   {
     "remote": "github",
-    "repository": "BrokenOs/android_device_samsung_quincy-common",
+    "repository": "AD5GB/android_device_samsung_quincy-common",
     "target_path": "device/samsung/quincy-common",
     "revision": "kk"
   },
