@@ -3,36 +3,36 @@
     "remote":       "github",
     "repository":   "SlimRoms/android_device_samsung_qcom-common",
     "target_path":  "device/samsung/qcom-common",
-    "revision":     "kk-4.4"
+    "branch":       "kk-4.4"
   },
   {
     "remote":       "github",
     "repository":   "AD5GB/android_device_samsung_msm8660-common",
     "target_path":  "device/samsung/msm8660-common",
-    "revision":     "kk"
+    "branch":       "kk"
   },
   {
     "remote":       "github",
     "repository":   "AD5GB/android_proprietary_vendor_samsung",
     "target_path":  "vendor/samsung",
-    "revision":     "ad5gb-01"
+    "branch":       "ad5gb-01"
   },
   {
     "remote":       "github",
     "repository":   "SlimRoms/hardware_samsung",
     "target_path":  "hardware/samsung",
-    "revision":     "kk-4.4"
+    "branch":       "kk-4.4"
   },
   {
-    "branch":       "github",
+    "remote":       "github",
     "repository":   "AD5GB/android_device_samsung_quincy-common",
     "target_path":  "device/samsung/quincy-common",
-    "revision":     "kk"
+    "branch":       "kk"
   },
   {
     "remote":       "github",
     "repository":   "AD5GB/android_kernel_samsung_msm8660-common",
     "target_path":  "kernel/samsung/msm8660-common",
-    "revision":     "ad5gb-01a"
+    "branch":       "ad5gb-01a"
   }
 ]
