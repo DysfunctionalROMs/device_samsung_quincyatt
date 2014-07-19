@@ -13,7 +13,7 @@
   },
   {
     "remote":       "github",
-    "repository":   "AD5GB/android_proprietary_vendor_samsung",
+    "repository":   "AD5GB/proprietary_vendor_samsung",
     "target_path":  "vendor/samsung",
     "branch":       "ad5gb-01"
   },
