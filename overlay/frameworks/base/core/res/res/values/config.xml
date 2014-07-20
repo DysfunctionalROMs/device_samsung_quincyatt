@@ -79,4 +79,11 @@
 
     <!-- Minimum screen brightness allowed by the power manager. -->
     <integer name="config_screenBrightnessDim">10</integer>
+
+
+    <!-- Whether a software navigation bar should be shown. NOTE: in the
+    future this may be autodetected from the Configuration. -->
+    <bool name="config_showNavigationBar">true</bool>
+    <integer name="config_deviceHardwareKeys">15</integer>
+                                                               
 </resources>
