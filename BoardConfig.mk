@@ -31,6 +31,12 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8660_SURF
 # Assert
 TARGET_OTA_ASSERT_DEVICE := SGH-I717,quincyatt
 
+# Compiler tunables
+TARGET_GCC_VERSION := 4.8
+#TARGET_GCC_VERSION_EXP := 4.7-sm
+TARGET_USE_03 := true
+
+
 # Kernel
 TARGET_KERNEL_CONFIG        := cyanogenmod_quincyatt_defconfig
 TARGET_KERNEL_SOURCE        := kernel/samsung/msm8660-common
