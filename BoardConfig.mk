@@ -32,15 +32,15 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8660_SURF
 TARGET_OTA_ASSERT_DEVICE := SGH-I717,quincyatt
 
 # Compiler tunables
-TARGET_GCC_VERSION := 4.8
+#TARGET_GCC_VERSION := 4.8
 #TARGET_GCC_VERSION_EXP := 4.7-sm
-TARGET_USE_03 := true
+#TARGET_USE_03 := true
 
 
 # Kernel
 TARGET_KERNEL_CONFIG        := cyanogenmod_quincyatt_defconfig
 TARGET_KERNEL_SOURCE        := kernel/samsung/msm8660-common
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.7-13.04/bin/arm-linux-gnueabihf-
+#TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.7-13.04/bin/arm-linux-gnueabihf-
 
 # Assert minimum baseband version
 TARGET_BOARD_INFO_FILE ?= device/samsung/quincyatt/board-info.txt
