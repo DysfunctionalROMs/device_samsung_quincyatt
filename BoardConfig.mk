@@ -40,7 +40,7 @@ TARGET_OTA_ASSERT_DEVICE := SGH-I717,quincyatt
 # Kernel
 TARGET_KERNEL_CONFIG        := cyanogenmod_quincyatt_defconfig
 TARGET_KERNEL_SOURCE        := kernel/samsung/msm8660-common
-#TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.7-13.04/bin/arm-linux-gnueabihf-
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.7-13.04/bin/arm-linux-gnueabihf-
 
 # Assert minimum baseband version
 TARGET_BOARD_INFO_FILE ?= device/samsung/quincyatt/board-info.txt
