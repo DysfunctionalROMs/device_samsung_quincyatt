@@ -33,6 +33,6 @@
     "remote":       "github",
     "repository":   "AD5GB/android_kernel_samsung_msm8660-common",
     "target_path":  "kernel/samsung/msm8660-common",
-    "branch":       "ad5gb-01a"
+    "branch":       "ad5gb-linaro"
   }
 ]
