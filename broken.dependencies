@@ -7,7 +7,7 @@
   },
   {
     "remote":       "github",
-    "repository":   "SlimRoms/_device_samsung_msm8660-common",
+    "repository":   "SlimRoms/device_samsung_msm8660-common",
     "target_path":  "device/samsung/msm8660-common",
     "branch":       "kk4.4"
   },
