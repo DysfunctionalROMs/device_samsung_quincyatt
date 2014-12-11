@@ -42,6 +42,7 @@ TARGET_KERNEL_CONFIG        := cyanogenmod_quincyatt_defconfig
 TARGET_KERNEL_SOURCE        := kernel/samsung/msm8660-common
 ##TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-arm-eabi-4.7
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7-sm
+TARGET_CPU_VARIANT					:= cortex-a8
 
 # Assert minimum baseband version
 TARGET_BOARD_INFO_FILE ?= device/samsung/quincyatt/board-info.txt
