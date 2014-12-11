@@ -9,19 +9,19 @@
     "remote":       "github",
     "repository":   "SlimRoms/device_samsung_msm8660-common",
     "target_path":  "device/samsung/msm8660-common",
-    "branch":       "kk4.4"
+    "branch":       "lp5.0"
   },
   {
     "remote":       "github",
-    "repository":   "TheMuppets/proprietary_vendor_samsung",
+    "repository":   "TheLoonyBin/proprietary_vendor_samsung",
     "target_path":  "vendor/samsung",
-    "branch":       "cm-12.0"
+    "branch":       "lp5.0"
   },
   {
     "remote":       "github",
-    "repository":   "CyanogenMod/android_hardware_samsung",
+    "repository":   "SlimRoms/hardware_samsung",
     "target_path":  "hardware/samsung",
-    "branch":       "cm-12.0"
+    "branch":       "lp5.0"
   },
   {
     "remote":       "github",
