@@ -31,8 +31,8 @@
   },
   {
     "remote":       "github",
-    "repository":   "SlimRoms/kernel_samsung_msm8660",
+    "repository":   "AD5GB/android_kernel_samsung_msm8660-common",
     "target_path":  "kernel/samsung/msm8660-common",
-    "branch":       "lp5.0"
+    "branch":       "ad5gb-linaro"
   }
 ]
