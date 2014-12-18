@@ -8,7 +8,7 @@
     {
     "remote":       "github",
     "repository":   "CyanogenMod/android_hardware_qcom_media",
-    "target_path":  "device/samsung/qcom-media",
+    "target_path":  "hardware/qcom/media",
     "branch":       "cm-12.0"
   },
   {
