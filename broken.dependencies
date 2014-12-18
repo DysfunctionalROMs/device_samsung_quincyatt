@@ -19,9 +19,9 @@
   },
   {
     "remote":       "github",
-    "repository":   "SlimRoms/hardware_samsung",
+    "repository":   "CyanogenMod/android_hardware_samsung",
     "target_path":  "hardware/samsung",
-    "branch":       "lp5.0"
+    "branch":       "cm-12.0"
   },
   {
     "remote":       "github",
