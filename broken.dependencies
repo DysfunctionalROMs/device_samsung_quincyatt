@@ -7,9 +7,9 @@
   },
   {
     "remote":       "github",
-    "repository":   "AD5GB/device_samsung_msm8660-common",
+    "repository":   "AD5GB/android_device_samsung_msm8660-common",
     "target_path":  "device/samsung/msm8660-common",
-    "branch":       "lp5.0"
+    "branch":       "ad5gb-01a"
   },
   {
     "remote":       "github",
