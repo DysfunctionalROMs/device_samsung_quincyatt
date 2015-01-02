@@ -33,7 +33,7 @@ TARGET_OTA_ASSERT_DEVICE := SGH-I717,quincyatt
 
 # Compiler tunables
 #TARGET_GCC_VERSION := 4.8
-TARGET_GCC_VERSION_EXP := 4.7-sm
+#TARGET_GCC_VERSION_EXP := 4.7-sm
 #TARGET_USE_03 := true
 
 
