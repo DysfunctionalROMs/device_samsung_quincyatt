@@ -27,7 +27,7 @@
     "remote":       "github",
     "repository":   "AD5GB/android_device_samsung_quincy-common",
     "target_path":  "device/samsung/quincy-common",
-    "branch":       "kk"
+    "branch":       "lp"
   },
   {
     "remote":       "github",
