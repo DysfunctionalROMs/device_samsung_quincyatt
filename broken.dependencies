@@ -31,6 +31,12 @@
   },
   {
     "remote":       "github",
+    "repository":   "Evervolv/android_hardware_qcom_display-legacy",
+    "target_path":  "hardware/qcom/display-legacy",
+    "branch":       "lollipop"
+  },
+  {
+    "remote":       "github",
     "repository":   "AD5GB/android_kernel_samsung_msm8660-common",
     "target_path":  "kernel/samsung/msm8660-common",
     "branch":       "ad5gb-01a"
