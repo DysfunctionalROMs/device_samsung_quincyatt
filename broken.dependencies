@@ -13,9 +13,9 @@
   },
   {
     "remote":       "github",
-    "repository":   "TheLoonyBin/proprietary_vendor_samsung",
+    "repository":   "TheMuppets/proprietary_vendor_samsung",
     "target_path":  "vendor/samsung",
-    "branch":       "lp5.0"
+    "branch":       "cm12.0"
   },
   {
     "remote":       "github",
