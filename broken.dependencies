@@ -15,7 +15,7 @@
     "remote":       "github",
     "repository":   "TheMuppets/proprietary_vendor_samsung",
     "target_path":  "vendor/samsung",
-    "branch":       "cm12.0"
+    "branch":       "cm-12.0"
   },
   {
     "remote":       "github",
