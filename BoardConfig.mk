@@ -31,24 +31,15 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8660_SURF
 # Assert
 TARGET_OTA_ASSERT_DEVICE := SGH-I717,quincyatt
 
-# Compiler tunables
-#TARGET_GCC_VERSION := 4.8
-#TARGET_GCC_VERSION_EXP := 4.7-sm
-#TARGET_USE_03 := true
-
-
 # Kernel
 TARGET_KERNEL_CONFIG        := wicked_quincyatt_defconfig
 TARGET_KERNEL_SOURCE        := kernel/samsung/msm8660-common
-##TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-arm-eabi-4.7
-#TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.7-12.10/bin/arm-linux-gnueabihf-
-##TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7-sm/bin/arm-eabi-
 TARGET_GCC_VERSION_ARM := 4.7-linaro
 TARGET_CPU_VARIANT	:= scorpion
 TARGET_HARDWARE_VARIANT := msm8960
 
 # Assert minimum baseband version
-TARGET_BOARD_INFO_FILE ?= device/samsung/quincyatt/board-info.txt
+TARGET_BOARD_INFO_FILE := device/samsung/quincyatt/board-info.txt
 
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x00A00000
