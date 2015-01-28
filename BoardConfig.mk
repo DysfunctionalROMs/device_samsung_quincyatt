@@ -38,12 +38,12 @@ TARGET_OTA_ASSERT_DEVICE := SGH-I717,quincyatt
 
 
 # Kernel
-TARGET_KERNEL_CONFIG        := stock_sammy_defconfig
+TARGET_KERNEL_CONFIG        := wicked_quincyatt_defconfig
 TARGET_KERNEL_SOURCE        := kernel/samsung/msm8660-common
 ##TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-arm-eabi-4.7
 #TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.7-12.10/bin/arm-linux-gnueabihf-
 ##TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7-sm/bin/arm-eabi-
-TARGET_GCC_VERSION_ARM := 4.7-sm
+TARGET_GCC_VERSION_ARM := 4.7-linsto
 TARGET_CPU_VARIANT	:= scorpion
 TARGET_HARDWARE_VARIANT := msm8960
 
