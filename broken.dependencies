@@ -31,9 +31,9 @@
   },
   {
     "remote":       "github",
-    "repository":   "gimmeitorilltell/kernel_samsung_msm8660",
+    "repository":   "gimmeitorilltell/android_kernel_samsung_msm8660-common",
     "target_path":  "kernel/samsung/msm8660-common",
-    "branch":       "lp5.0"
+    "branch":       "cm-12.0"
   },
   {
     "remote":       "github",
