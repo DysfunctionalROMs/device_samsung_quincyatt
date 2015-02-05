@@ -30,17 +30,27 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8660_SURF
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := SGH-I717,quincyatt
+TARGET_BOARD_INFO_FILE ?= device/samsung/quincyatt/board-info.txt
+
+# Resoultion
+DEVICE_RESOLUTION := 800x1280
+
+# FM radio
+PRODUCT_PACKAGES += \
+    FM2 \
+    FMRecord \
+    libqcomfm_jni \
+    qcom.fmradio
 
 # Kernel
-TARGET_KERNEL_CONFIG        := cyanogenmod_quincyatt_defconfig
-TARGET_KERNEL_SOURCE        := kernel/samsung/msm8660-common
+TARGET_KERNEL_CONFIG := cyanogenmod_quincyatt_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/msm8660-common
 TARGET_GCC_VERSION_ARM := 4.7-sm
 TARGET_CPU_VARIANT	:= scorpion
 TARGET_HARDWARE_VARIANT := msm8960
 
-# Assert minimum baseband version
+# Partitions
 TARGET_BOARD_INFO_FILE := device/samsung/quincyatt/board-info.txt
-
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x00A00000
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x00A00000
@@ -48,6 +58,5 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 536870912
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 536870912
 BOARD_FLASH_BLOCK_SIZE := 131072
 
+# Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/quincyatt/bluetooth
-
-
