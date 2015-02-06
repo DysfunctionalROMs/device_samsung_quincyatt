@@ -25,7 +25,7 @@
     },
     {
         "remote":  "github",
-        "repository": "SlimDev/android_device_samsung_quincy-common",
+        "repository": "SlimDev/device_samsung_quincy-common",
         "target_path": "device/samsung/quincy-common",
         "branch": "lp5.0"
     },
