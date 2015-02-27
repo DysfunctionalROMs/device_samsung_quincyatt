@@ -10,7 +10,7 @@
         "branch": "lp5.0"
     },
     {
-        "repository": "gimmeitorilltell/device_samsung_qcom-common",
+        "repository": "SlimDev/device_samsung_qcom-common",
         "target_path": "device/samsung/qcom-common",
         "branch": "lp5.0"
     },
