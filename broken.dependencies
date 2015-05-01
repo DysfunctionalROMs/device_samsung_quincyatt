@@ -14,7 +14,7 @@
     },
     {
         "remote": "github",
-        "repository": "SlimDev/device_samsung_qcom-common",
+        "repository": "AD5GB/device_samsung_qcom-common",
         "target_path": "device/samsung/qcom-common",
         "branch": "lp5.1"
     },
