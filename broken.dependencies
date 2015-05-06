@@ -26,9 +26,9 @@
     },
     {
         "remote": "github",
-        "repository": "SlimDev/kernel_samsung_msm8660-common",
+        "repository": "AD5GB/android_kernel_samsung_msm8660-common",
         "target_path": "kernel/samsung/msm8660-common",
-        "branch": "lp5.1"
+        "branch": "wicked"
     },
     {
     	"remote": "github",
@@ -49,10 +49,10 @@
         "branch": "cm-12.1-caf-8660"
     },
     {
-	    "remote": "github",
-	    "repository": "CyanogenMod/android_hardware_samsung",
-	    "target_path": "hardware/samsung",
-	    "branch": "cm-12.1"
+ 	"remote": "github",
+	"repository": "CyanogenMod/android_hardware_samsung",
+	"target_path": "hardware/samsung",
+	"branch": "cm-12.1"
     }
 
 ]
