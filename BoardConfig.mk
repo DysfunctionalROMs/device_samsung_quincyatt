@@ -43,7 +43,7 @@ PRODUCT_PACKAGES += \
     qcom.fmradio
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_quincyatt_defconfig
+TARGET_KERNEL_CONFIG := wicked_quincyatt_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/msm8660-common
 ##TARGET_GCC_VERSION_ARM := 4.7-sm
 TARGET_CPU_VARIANT	:= scorpion
