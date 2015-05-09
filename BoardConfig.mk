@@ -35,16 +35,8 @@ TARGET_BOARD_INFO_FILE ?= device/samsung/quincyatt/board-info.txt
 # Resoultion
 DEVICE_RESOLUTION := 800x1280
 
-# FM radio
-PRODUCT_PACKAGES += \
-    FM2 \
-    FMRecord \
-    libqcomfm_jni \
-    qcom.fmradio
-
 # Kernel
 TARGET_KERNEL_CONFIG := wicked_quincyatt_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/msm8660-common
 ##TARGET_GCC_VERSION_ARM := 4.7-sm
 TARGET_CPU_VARIANT	:= scorpion
 TARGET_HARDWARE_VARIANT := msm8960
