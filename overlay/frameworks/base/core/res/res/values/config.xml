@@ -88,4 +88,7 @@
     <!-- Set up proper hardware key mapping. -->
     <!--integer name="config_deviceHardwareKeys">15</integer-->
                                                                
+ 	<!-- Button Brightness -->
+  	<bool name="config_deviceHasVariableButtonBrightness">true</bool>
+
 </resources>
