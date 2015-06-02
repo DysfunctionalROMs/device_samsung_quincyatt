@@ -35,6 +35,9 @@ TARGET_BOARD_INFO_FILE ?= device/samsung/quincyatt/board-info.txt
 # Resoultion
 DEVICE_RESOLUTION := 800x1280
 
+# Build with Oracle JDK 7
+ORACLE_JDK7 := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := wicked_quincyatt_defconfig
 ##TARGET_GCC_VERSION_ARM := 4.7-sm
