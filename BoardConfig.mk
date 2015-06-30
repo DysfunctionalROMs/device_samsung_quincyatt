@@ -50,6 +50,9 @@ WITH_DEXPREOPT_COMP=true
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilt/linux-x86_64/toolchain/Linaro-4.7q/bin
 
+# Keepin it block based for the sake of SuperSu
+BLOCK_BASED_OTA=true
+
 # Partitions
 TARGET_BOARD_INFO_FILE := device/samsung/quincyatt/board-info.txt
 TARGET_USERIMAGES_USE_EXT4 := true
