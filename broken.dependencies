@@ -26,9 +26,9 @@
     },
     {
         "remote": "github",
-        "repository": "AD5GB/android_kernel_samsung_msm8660-common",
+        "repository": "gimmeitorilltell/android_kernel_samsung_msm8660-common",
         "target_path": "kernel/samsung/msm8660-common",
-        "branch": "wicked-5.1"
+        "branch": "cm-12.1"
     },
     {
     	"remote": "github",

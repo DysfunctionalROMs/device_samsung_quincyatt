@@ -39,7 +39,7 @@ DEVICE_RESOLUTION := 800x1280
 #ORACLE_JDK7 := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := wicked_quincyatt_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_quincyatt_defconfig
 ##TARGET_GCC_VERSION_ARM := 4.7-sm
 TARGET_CPU_VARIANT	:= scorpion
 TARGET_HARDWARE_VARIANT := msm8960
@@ -47,8 +47,8 @@ TARGET_HARDWARE_VARIANT := msm8960
 # Build with compressed odex! (thanks Ken!!)
 WITH_DEXPREOPT_COMP=true
 
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilt/linux-x86_64/toolchain/Linaro-4.7q/bin
+#KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+#KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilt/linux-x86_64/toolchain/Linaro-4.7q/bin
 
 # Keepin it block based for the sake of SuperSu
 BLOCK_BASED_OTA=true
