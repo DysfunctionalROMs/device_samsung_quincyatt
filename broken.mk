@@ -1,13 +1,13 @@
 $(call inherit-product, device/samsung/quincyatt/full_quincyatt.mk)
 
 # Inherit some common CM stuff.
-#$(call inherit-product, vendor/broken/config/gsm.mk)
+$(call inherit-product, vendor/broken/config/gsm.mk)
 
 # Enhanced NFC
-#$(call inherit-product, vendor/broken/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/broken/config/nfc_enhanced.mk)
 
 # Inherit some common CM stuff.
-#$(call inherit-product, vendor/broken/config/common_full_phone.mk)
+$(call inherit-product, vendor/broken/config/common_full_phone.mk)
 
 # Inherit Broken common stuff.
 $(call inherit-product, vendor/broken/config/common.mk)
