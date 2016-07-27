@@ -32,6 +32,10 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8660_SURF
 TARGET_OTA_ASSERT_DEVICE := SGH-I717,quincyatt
 TARGET_BOARD_INFO_FILE ?= device/samsung/quincyatt/board-info.txt
 
+# Logging
+TARGET_USES_LOGD := false
+
+
 # Resoultion
 DEVICE_RESOLUTION := 800x1280
 
@@ -39,7 +43,8 @@ DEVICE_RESOLUTION := 800x1280
 #ORACLE_JDK7 := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := quincyatt_defconfig
+TARGET_KERNEL_CONFIG := wicked_quincyatt_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/msm8660-common
 ##TARGET_GCC_VERSION_ARM := 4.7-sm
 TARGET_CPU_VARIANT	:= scorpion
 TARGET_HARDWARE_VARIANT := msm8960

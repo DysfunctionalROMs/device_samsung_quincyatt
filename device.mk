@@ -37,3 +37,6 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, device/samsung/quincy-common/quincy-common.mk)
 
 $(call inherit-product-if-exists, vendor/samsung/quincyatt/quincyatt-vendor.mk)
+
+LOCAL_STATIC_LIBRARIES := liblog
+
